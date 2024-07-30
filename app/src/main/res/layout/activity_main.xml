@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moli68.mosdk.MainActivity">
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="设备id权限"
+        android:onClick="getPermission"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="注册"
+        android:onClick="reg"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="更新数据"
+        android:onClick="updata"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="版本更新"
+        android:onClick="getNew"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="获取文档"
+        android:onClick="getDoc"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="提交反馈"
+        android:onClick="addReback"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="获取反馈内容"
+        android:onClick="getFeedback"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="下单"
+        android:onClick="order"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="发送短信"
+        android:onClick="sendsms"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="登录"
+        android:onClick="login"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="微信登录"
+        android:onClick="wc_login"
+        android:layout_height="wrap_content" />
+    <com.moli68.library.custom.PressedTextView
+        android:layout_width="match_parent"
+        android:text="参数"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:onClick="imageChose"
+        android:layout_height="48dp" />
+
+
+</LinearLayout>
